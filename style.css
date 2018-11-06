@@ -120,7 +120,9 @@ a:hover {
 h1 {
   font-size: 40px;
 }
-
+.left {
+  text-align: left;
+}
 
 
 @media only screen and (max-width: 900px) {
