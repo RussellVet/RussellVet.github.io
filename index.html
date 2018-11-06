@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Russell Veterinary Service</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Mali:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="navigationbar">
+      <div class="leftnav">
+        <div><h2 class="logo">RVS</h2>
+        </div>
+      </div>
+      <div class="rightnav">
+        <a href="#meet" class="contact-btn">Meet the Vet</a>
+        <a href="#contact" class="contact-btn js-scrollTo">Contact</a>
+      </div>
+    </div>
+
+    <div class="wrapper">
+      <div class="container">
+        <h1>Welcome to<br> Russell Veterinary Services</h1>
+        <h2 class="subtitle">since 1972</h2>
+      </div>
+    </div>
+    <div style="width: 100%; height: 100vh">
+    <div id="contact" class="contact">
+      <div>
+        <img src="rvsgc.jpg" class="photo">
+      </div>
+      <div class="text">
+        <div class="title">
+          <h1>Geoffrey A. H. Cochrane</h1>
+          <h2>DVM, MSc, DACAS Professional Animal Scientist (PAS)</h2>
+        </div>
+  <p>
+  Dr. Cochrane received his academic qualifications and formal education from the Ontario Veterinary College (DVM) and the Royal Veterinary College (MSc). In addition, a graduate diploma in business management (DBA) from the Faculty of Administration of the University of Ottawa was obtained.
+
+  He is a Board Certified Diplomate in both Applied Animal Behavior and Animal Welfare with the American College of Animal Sciences, currently serving as Director of the Animal Welfare Science Discipline.</p><br>
+
+        <div class="title">
+          <h3>COMPANION  ANIMALS</h3>
+        </div>
+
+
+
+          <p>Small animal office practice limited to preventive and primary medical health care including:</p>
+          <ul><li><p><strong>Veterinary pediatrics –</strong> vaccinations, parasite prevention & behavioral consultations</p></li>
+            <li><p><strong>Applied animal nutrition -</strong> body condition scoring, weight control, therapeutic dietary management</p></li>
+            <li><p><strong>Veterinary geriatrics – </strong>inflammation & pain management, palliative care and quality of life assessment</p></li>
+          </ul>
+      </div>
+
+    </div>
+
+  </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.js-scrollTo').on('click', function() {
+        var page = $(this).attr('href');
+        var speed = 600;
+        $('html, body').animate( { scrollTop: $(page).offset().top }, speed );
+        return false;
+      });
+    });
+  </script>
+</body>
+</html>
