@@ -100,10 +100,10 @@ a:hover {
   justify-content: center;
   flex-wrap: wrap;
   margin: 0 auto;
-
+  padding-bottom: 30px;
 }
 .text {
-  background-color: rgba(250,250,250,.1);
+  background-color: rgba(250,250,250,.8);
   padding: 10px 30px;
   flex: 1 0 400px;
   border-radius: 20px;
@@ -119,7 +119,10 @@ a:hover {
 
 }
 .contact * {
-  color: white;
+  color: black;
+}
+.contact i {
+  color: rgba(150,65,89,0.9);
 }
 
 .photo {
@@ -131,6 +134,13 @@ h1 {
 }
 .left {
   text-align: left;
+}
+#contact {
+  margin-bottom: 50vh;
+}
+
+.hidden {
+  display: none;
 }
 
 
